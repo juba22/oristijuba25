@@ -1,0 +1,55 @@
+body {
+  background-image: url(../images/cover-girl.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+/* start navbar */
+.navbar {
+  background: #ffffff; }
+
+.navbar-light .navbar-brand h1 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Modak', cursive;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Signika', sans-serif; }
+
+.navbar-light .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px; }
+
+/** start slider **/
+.slider .carousel-caption {
+  position: absolute;
+  height: 100%;
+  right: 12%;
+  bottom: -50%;
+  left: 15%;
+  color: #fff;
+  text-align: center;
+  line-height: .5;
+  padding: 0px; }
+  .slider .carousel-caption h5 {
+    font-family: 'Jomolhari', serif;
+    font-size: 90px; }
+  .slider .carousel-caption p {
+    font-family: 'Pacifico', cursive;
+    font-size: 90px; }
+
+/** start footer **/
+.nav2 {
+  position: absolute;
+  top: 141%;
+  width: 100%;
+  padding: 20px; }
+  .nav2 a {
+    color: #192531;
+    text-decoration: none; }
+  .nav2 ul {
+    list-style: none;
+    display: flex; }
+  .nav2 li {
+    padding: 10px; }
